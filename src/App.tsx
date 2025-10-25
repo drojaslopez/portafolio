@@ -136,7 +136,7 @@ function App() {
             ¿Interesado en trabajar juntos? ¡Me encantaría saber de ti!
           </p>
           <div className="contact-info">
-            <p>Email: daniel.rojas@example.com</p>
+            <p>Email: drojaslopez.ing@gmail.com</p>
             <p>LinkedIn: /in/danielrojas</p>
             <p>GitHub: /danielrojas</p>
           </div>
@@ -145,7 +145,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2024 Daniel Rojas. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Daniel Rojas. Todos los derechos reservados.</p>
       </footer>
     </div>
   )

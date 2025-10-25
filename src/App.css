@@ -49,6 +49,7 @@
 .nav-links {
   display: flex;
   gap: 2rem;
+  width: 550px;
 }
 
 .nav-links a {
