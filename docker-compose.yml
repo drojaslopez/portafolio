@@ -1,0 +1,38 @@
+services:
+  # Development service
+  dev:
+    build:
+      context: .
+      target: development
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+    profiles:
+      - dev
+
+  # Production service
+  prod:
+    build:
+      context: .
+      target: production
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    profiles:
+      - prod
+
+  # Build service
+  build:
+    build:
+      context: .
+      target: build
+    volumes:
+      - ./dist:/app/dist
+    profiles:
+      - build
