@@ -86,6 +86,19 @@ a:hover {
 
 
 
+/* Si usaste la Opción 1 o 3 (basadas en stroke/trazo) */
+svg:hover path, svg:hover g {
+    stroke: #3b82f6; /* Cambia a azul al hacer hover */
+    transition: stroke 0.3s ease;
+}
+
+/* Si usaste la Opción 2 (basada en fill/relleno) */
+svg:hover rect:first-child {
+     fill: #3b82f6; /* Cambia el fondo del icono a azul */
+     transition: fill 0.3s ease;
+}
+
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

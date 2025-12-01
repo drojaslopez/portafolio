@@ -6,11 +6,6 @@ function App() {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with React and Node.js",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-    },
-    {
       title: "Task Management App",
       description: "Collaborative task management tool with real-time updates",
       technologies: ["TypeScript", "Socket.io", "PostgreSQL"],
@@ -35,24 +30,32 @@ function App() {
     "Docker",
   ];
 
+  const bio = {
+    intro:
+      "Soy un Ingeniero de Software Back y Full-Stack con más de 12 años de experiencia desarrollando soluciones tecnológicas innovadoras. Actualmente me desempeño en Banco de Chile, donde aplico mis conocimientos para crear sistemas robustos y escalables.",
+    expertise:
+      "Mi experiencia abarca el desarrollo de aplicaciones web completas, desde el frontend hasta el backend, con un fuerte enfoque en la calidad del código y las mejores prácticas de desarrollo.",
+    technologies:
+      "Trabajo con tecnologías modernas como React, Node.js, Python y bases de datos SQL/NoSQL. Además, me encuentro en constante aprendizaje, actualmente enfocado en tecnologías Cloud.",
+    approach:
+      "Me apasiona resolver problemas complejos a través del código y crear experiencias de usuario excepcionales. Creo firmemente en el desarrollo de software limpio, mantenible y bien documentado.",
+    location: "🌎 Santiago, Chile",
+  };
+
   const contactInfo = {
     email: "drojaslopez.ing@gmail.com",
     linkedin: "https://www.linkedin.com/in/drojaslopez",
     github: "https://github.com/drojaslopez",
   };
-
-  const bio = {
-  intro: "Soy un Ingeniero de Software Back y Full-Stack con más de 12 años de experiencia desarrollando soluciones tecnológicas innovadoras. Actualmente me desempeño en Banco de Chile, donde aplico mis conocimientos para crear sistemas robustos y escalables.",
-  expertise: "Mi experiencia abarca el desarrollo de aplicaciones web completas, desde el frontend hasta el backend, con un fuerte enfoque en la calidad del código y las mejores prácticas de desarrollo.",
-  technologies: "Trabajo con tecnologías modernas como React, Node.js, Python y bases de datos SQL/NoSQL. Además, me encuentro en constante aprendizaje, actualmente enfocado en tecnologías Cloud.",
-  approach: "Me apasiona resolver problemas complejos a través del código y crear experiencias de usuario excepcionales. Creo firmemente en el desarrollo de software limpio, mantenible y bien documentado.",
-  location: "🌎 Santiago, Chile"
-};
+  
 
   return (
     <div className="portfolio-container">
       <nav className="navbar">
-        <div className="nav-brand">Portafolio</div>
+        <div className="nav-brand">
+          <img src={"/src/assets/drlsinfondo.png"} alt="Portafolio" className="logo" />
+        </div>
+
         <div className="nav-links">
           <a
             href="#home"

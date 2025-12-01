@@ -343,3 +343,12 @@ html {
 .project-card, .skill-item {
   animation: fadeInUp 0.6s ease-out;
 }
+.nav-brand .logo {
+  height: 50px; /* Adjust this value to fit your needs */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.nav-brand .logo:hover {
+  transform: scale(1.05);
+}
