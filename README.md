@@ -90,7 +90,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 - 📧 Email: [drojaslopez.ing@gmail.com](mailto:drojaslopez.ing@gmail.com)
 - 💼 LinkedIn: [Daniel Rojas](https://www.linkedin.com/in/drojaslopez)
-- 🌐 Sitio Web: [drojaslopez](https://github.com/drojaslopez/portafolio)
+- 🌐 Sitio Web: [drojaslopez](https://drojaslopez.github.io/portafolio/)
 - 📱 GitHub: [@drojaslopez](https://github.com/drojaslopez)
 
 ---
