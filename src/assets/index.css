@@ -84,21 +84,6 @@ a:hover {
   color: #535bf2;
 }
 
-
-
-/* Si usaste la Opción 1 o 3 (basadas en stroke/trazo) */
-svg:hover path, svg:hover g {
-    stroke: #3b82f6; /* Cambia a azul al hacer hover */
-    transition: stroke 0.3s ease;
-}
-
-/* Si usaste la Opción 2 (basada en fill/relleno) */
-svg:hover rect:first-child {
-     fill: #3b82f6; /* Cambia el fondo del icono a azul */
-     transition: fill 0.3s ease;
-}
-
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -109,19 +94,6 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
 }
 
 .card {

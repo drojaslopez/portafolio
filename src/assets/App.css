@@ -32,7 +32,7 @@
   padding: 1rem;
   background: rgba(36, 36, 36, 0.4);
   backdrop-filter: blur(10px);
-  padding: 1rem 2rem;
+  /*padding: 1rem 2rem;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +44,15 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: #eeefff;
+}
+.nav-brand .logo {
+  height: 50px; /* Adjust this value to fit your needs */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.nav-brand .logo:hover {
+  transform: scale(1.05);
 }
 
 .nav-links {
@@ -286,7 +295,7 @@ section h2 {
   .navbar {
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
+    /*padding: 1rem;*/
   }
 
   .nav-links {
@@ -342,13 +351,4 @@ html {
 
 .project-card, .skill-item {
   animation: fadeInUp 0.6s ease-out;
-}
-.nav-brand .logo {
-  height: 50px; /* Adjust this value to fit your needs */
-  width: auto;
-  transition: transform 0.3s ease;
-}
-
-.nav-brand .logo:hover {
-  transform: scale(1.05);
 }
