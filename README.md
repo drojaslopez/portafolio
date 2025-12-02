@@ -88,13 +88,11 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📬 Contacto
 
-- 📧 Email: [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
-- 💼 LinkedIn: [Daniel Rojas](https://linkedin.com/in/tu-perfil)
-- 🌐 Sitio Web: [tu-sitio.com](https://tu-sitio.com)
-- 📱 GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- 📧 Email: [drojaslopez.ing@gmail.com](mailto:drojaslopez.ing@gmail.com)
+- 💼 LinkedIn: [Daniel Rojas](https://www.linkedin.com/in/drojaslopez)
+- 🌐 Sitio Web: [drojaslopez](https://github.com/drojaslopez/portafolio)
+- 📱 GitHub: [@drojaslopez](https://github.com/drojaslopez)
 
 ---
 
 Hecho con ❤️ por Daniel Rojas - ¡Gracias por visitar!
-
-[⬆ Volver arriba](#-portafolio-profesional---diego-rojas)
