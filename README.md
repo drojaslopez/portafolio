@@ -1,69 +1,100 @@
-Portafolio
-Daniel Rojas
+# 🚀 Portafolio Profesional - Daniel Rojas
 
-Este repositorio contiene mi portafolio personal, donde muestro mis proyectos, habilidades y experiencia como desarrollador. Aquí encontrarás una colección de trabajos que demuestran mi pasión por la tecnología y mi capacidad para crear soluciones innovadoras.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-Explora mi portafolio para conocer más sobre:
+Bienvenido a mi portafolio profesional, una aplicación web moderna construida con React y Vite que muestra mis proyectos, habilidades y experiencia profesional.
 
-    Mis Proyectos: Una selección de los proyectos más destacados en los que he trabajado.
-    Mis Habilidades: Las tecnologías y herramientas que domino.
-    Sobre Mí: Un poco más sobre mi trayectoria profesional y mis intereses.
-    Contacto: Cómo puedes ponerte en contacto conmigo.
+## ✨ Características
 
-¡Gracias por tu visita!
+- **Diseño Responsivo**: Se adapta perfectamente a cualquier dispositivo
+- **Rendimiento Óptimo**: Gracias a Vite y React 19
+- **Tipado Estático**: Desarrollado con TypeScript para mayor robustez
+- **Despliegue Automático**: Configuración de GitHub Actions para despliegue en GitHub Pages
 
+## 🎯 Sobre el Proyecto
 
-# React + TypeScript + Vite
+Este portafolio muestra mi trabajo y habilidades como desarrollador, incluyendo:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Proyectos Destacados**: Una selección de mis trabajos más relevantes
+- **Habilidades Técnicas**: Tecnologías y herramientas que domino
+- **Experiencia Profesional**: Mi trayectoria y logros
+- **Formación Académica**: Mi educación y certificaciones
+- **Contacto**: Cómo ponerse en contacto conmigo
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React 19, TypeScript
+- **Herramientas**: Vite, ESLint
+- **Estilos**: CSS/SCSS
+- **Control de Versiones**: Git
 
-## Expanding the ESLint configuration
+## 🚀 Cómo Empezar
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Requisitos Previos
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Node.js 22+
+- npm o yarn
+
+### Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/portafolio.git
+   cd portafolio
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+
+4. Abre tu navegador en [http://localhost:5173](http://localhost:5173)
+
+### Construcción para Producción
+
+```bash
+npm run build
+# o
+yarn build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Despliegue
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+El proyecto está configurado para desplegarse automáticamente en GitHub Pages cuando se hace push a las ramas `main` o `master`.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🤝 Contribución
+
+Si deseas contribuir a este proyecto, por favor:
+1. Haz un Fork del repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## 📬 Contacto
+
+- 📧 Email: [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+- 💼 LinkedIn: [Daniel Rojas](https://linkedin.com/in/tu-perfil)
+- 🌐 Sitio Web: [tu-sitio.com](https://tu-sitio.com)
+- 📱 GitHub: [@tu-usuario](https://github.com/tu-usuario)
+
+---
+
+Hecho con ❤️ por Daniel Rojas - ¡Gracias por visitar!
+
+[⬆ Volver arriba](#-portafolio-profesional---diego-rojas)
